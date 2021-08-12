@@ -26,7 +26,6 @@ This dataset contains 7 features as shown below:
 7.charges: insurance costs billed by health insurance.
 
 EDA
-
 We performed two types of EDA — Univariate and Bivariate.
 
 Univariate EDA: For continuous variables like BMI, Age Children, Charges for univariate EDA we use box plot. • We observed that there are outliers in charges & BMI.
