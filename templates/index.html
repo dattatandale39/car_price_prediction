@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <h1>Car Price Prediction </h1>
+    <form action="{{ url_for("gfg")}}" method="post">
+<label for="presentprice">Present Price in Lakh:</label>
+<input type="text" id="presentprice" name="presentprice" placeholder="presentprice">
+<label for="KmsDriven">Kms Driven:</label>
+<input type="text" id="KmsDriven" name="KmsDriven" placeholder="KmsDriven">
+    <label for="Past_Owners">Past Owners:</label>
+<input type="text" id="Past_Owners" name="Past_Owners" placeholder="Past_Owners">
+
+
+      <label for="Age"> Age:</label>
+<input type="text" id="Age" name="Age" placeholder="Age">
+
+ <label for="Transmission">Transmission:</label>
+  <select id="Transmission" name="Transmission">
+    <option value="Manual">Manual</option>
+    <option value="Automatic">Automatic </option>
+  </select>
+
+<label for="SellerType"> Seller Type : </label>
+  <select id="SellerType" name="SellerType">
+    <option value="Individual">Individual</option>
+    <option value="Dealer">Dealer</option>
+  </select>
+
+    <label for="fueltype"> Fuel Type : </label>
+  <select id="fueltype" name="fueltype">
+    <option value="Petrol">Petrol</option>
+    <option value="Disel">Disel</option>
+      <option value="CNG">CNG</option>
+  </select>
+
+<button type="submit">Predict</button>
+</body>
+</html>
